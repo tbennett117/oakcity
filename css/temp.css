@@ -1,0 +1,75 @@
+/* Temp 1 CSS */
+
+/* Body */
+
+* {
+	text-decoration: none;
+	list-style-type: none;
+	font-family: 'Poppins', 'arial', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	
+}
+
+.page_wrapper {
+	background: url('../img/wavesbeach.jpg'), no-repeat;
+	height: 350px;
+	background-size: cover;
+	
+}
+
+header {
+	
+}
+
+
+/*Main Nav */
+
+.main-nav {
+	position: absolute;
+	right: 35px;
+	top: 100px;
+	z-index: 10;
+	width: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	justify-content: flex-end;
+	text-decoration: none;
+	
+}
+
+.n5 li a {
+	text-decoration: none;
+}
+
+
+
+/* Footer */
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: lightsalmon;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+
+
+
+
+
+
+
+
+/****************
+Media Queries
+****************/
+
+@media (min-width: 769px)
