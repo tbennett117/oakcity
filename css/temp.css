@@ -6,24 +6,84 @@
 	text-decoration: none;
 	list-style-type: none;
 	font-family: 'Poppins', 'arial', sans-serif;
+	color: rgba(234, 242, 7, 0.8);
 	font-weight: 400;
 	font-size: 14px;
 	
 }
 
+#temph1 {
+	font-size: 48px;
+	color: rgba(234, 242, 7, 0.8);
+	padding: 10px 0 0 10px;
+	
+}
+#temph2 {
+	font-size: 18px;
+	color: rgba(234, 242, 7, 0.8);
+	padding: 0 0 10px 10px;
+
+}
+
 .page_wrapper {
 	background: url('../img/wavesbeach.jpg'), no-repeat;
-	height: 350px;
+	height: 650px;
 	background-size: cover;
 	
 }
 
-header {
-	
+.main-content {
+	display: inline-flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	justify-content: flex-start;
 }
 
+.content-img {
+	margin: 5px 15px;
+	padding: 20px 0 20px 0;
+	height: 300px;
+	width: 550px;
+}
+
+.content-p {
+	border: solid;
+	margin: 25px 20px;
+	padding: 5px;
+	background-color: #8d97a8;
+	width: 550px;
+	height: 150px;
+}
+
+#p2 {
+	height: 250px;
+}
+/*
+.p-2 {
+	border: solid;
+	margin: auto;
+	padding: 5px;
+	background-color: #8d97a8;
+	height: 350px;
+	width: 450px;
+}
+*/
 
 /*Main Nav */
+
+.top-nav {
+	float: right;
+	display: inline-block;
+	z-index: 11;
+}
+
+.top-nav li {
+	display: inline-block;
+	position: relative;
+	float: left;
+	padding-right: 20px;
+	
+}
 
 .main-nav {
 	position: absolute;
@@ -37,6 +97,12 @@ header {
 	justify-content: flex-end;
 	text-decoration: none;
 	
+}
+
+.n5 {
+	width: 100%;
+	float: left;
+	padding-bottom: 50px;
 }
 
 .n5 li a {
